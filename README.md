@@ -43,6 +43,6 @@ make install
 - Embed all .ino files to Arduino mother board, and compile all c++ files to run repeatedly while receving inputs from RGBD camera platform.
 
 ## Demo
-![demo 1](https://github.com/Furkath/autoDock/blob/master/demos/1.jpg) ![demo 2](https://github.com/Furkath/autoDock/blob/master/demos/1.jpg)
-![demo scene](https://github.com/Furkath/autoDock/blob/master/demos/render.jpg)) ![demo boat](https://github.com/Furkath/autoDock/blob/master/demos/boat.jpg))
+<img src="https://github.com/Furkath/autoDock/blob/master/demos/1.jpg" alt="demo1" width="300" height="200" /> <img src="https://github.com/Furkath/autoDock/blob/master/demos/1.jpg" alt="demo1" width="300" height="200" />
+<img src="https://github.com/Furkath/autoDock/blob/master/demos/render.jpg" alt="demo1" width="300" height="200" /> <img src="https://github.com/Furkath/autoDock/blob/master/demos/boat.jpg" alt="demo1" width="300" height="200" />
 
