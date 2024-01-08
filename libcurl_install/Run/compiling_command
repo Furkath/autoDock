@@ -1,0 +1,1 @@
+g++ test.C -o test -I ../include -L ../lib -lcurl
