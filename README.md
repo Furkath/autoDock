@@ -13,13 +13,12 @@ A boat self-docking experiment based on RGBD camera and scene reconstruction, po
 
 ## Features
 
-- A rendering practice based on OpenGL, including many basic items for classic pipelines:
-- GLSL language of GPU programming for implementations of different shaders (vertex, fragment, geometric)
-- Shadow mapping for quick stratum and shadow calculation
-- Various illumination models (of local) and dual-sensitivity textures
-- Semi-opaque light mixing for tansparent objects and perspective adjustment
-- Graphic assistance for on-the-fly camera motion and model reading
-- Supersampling and bias correction 
+- RGBD camera shooting, coordinate correction, and scene reconstruction (Point Cloud).
+- Boat position/orientation, water elevation, shielding, recognition and denoising algorithm (Computer Vision).
+- Path planning algorithm (Minimum Snap) for shortest docking course.
+- Timestamp targeted motion control through PID algorithm, optimized by parameter fine-tuning.
+- Wireless Telecommunication through Server-Client softAP connection via ESP8266 microchip, for command transmission between PC and SCM on the boat.
+- Electromechanic development on Arduino, receiving signal from ESP8266 WiFi module, processing with UNO, and enabling motor reaction by L298N.
 
 ## Installation
 
