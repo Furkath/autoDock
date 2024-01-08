@@ -25,11 +25,12 @@ A boat self-docking experiment based on RGBD camera and scene reconstruction, po
 <!-- Provide instructions on how to install and set up your project. Include any dependencies and steps needed for a successful installation. -->
 
 ```bash
-# for Ubuntu and Debian-based
-sudo apt install pkg-config freeglut3 libglew-dev libglfw3 libsoil-dev libglm-dev
-cd build
-cmake ../
+# if a clound center is needed, we can utilize Curl to have internet connection
+git clone -b *verison* https://github.com/curl/curl.git
+cd curl-*verison*
+./configure --with-openssl --prefix=$HOME/workingDIR
 make
+make install
 ```
 
 ## Usage
