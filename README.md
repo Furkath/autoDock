@@ -33,8 +33,8 @@ make
 make install
 # also, the Eigen header files can be helpful
 ```
-*Arduino
-*ROS
+- Arduino
+- ROS
 
 ## Usage
 
