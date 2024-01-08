@@ -4,7 +4,7 @@ A boat self-docking experiment based on RGBD camera and scene reconstruction, po
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
+- [Prerequisite](#Prerequisite)
 - [Usage](#usage)
 - [Demo](#demo)
 <!-- [Contributing](#contributing) -->
@@ -20,18 +20,21 @@ A boat self-docking experiment based on RGBD camera and scene reconstruction, po
 - Wireless Telecommunication through Server-Client softAP connection via ESP8266 microchip, for command transmission between PC and SCM on the boat.
 - Electromechanic development on Arduino, receiving signal from ESP8266 WiFi module, processing with UNO, and enabling motor reaction by L298N.
 
-## Installation
+## Prerequisite 
 
 <!-- Provide instructions on how to install and set up your project. Include any dependencies and steps needed for a successful installation. -->
 
 ```bash
 # if a clound center is needed, we can utilize Curl to have internet connection
-git clone -b *verison* https://github.com/curl/curl.git
-cd curl-*verison*
+git clone -b verison https://github.com/curl/curl.git
+cd curl-verison
 ./configure --with-openssl --prefix=$HOME/workingDIR
 make
 make install
+# also, the Eigen header files can be helpful
 ```
+*Arduino
+*ROS
 
 ## Usage
 
