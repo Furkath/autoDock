@@ -45,5 +45,5 @@ make install
 ## Demo
 <img src="https://github.com/Furkath/autoDock/blob/master/demos/1.jpg" alt="demo1" width="400" height="300" /> <img src="https://github.com/Furkath/autoDock/blob/master/demos/2.jpg" alt="demo2" width="400" height="300" />
 
-<img src="https://github.com/Furkath/autoDock/blob/master/demos/render.jpg" alt="scene" width="500" height="400" /> <img src="https://github.com/Furkath/autoDock/blob/master/demos/boat.jpg" alt="boat" width="350" height="300" />
+<img src="https://github.com/Furkath/autoDock/blob/master/demos/render.jpg" alt="scene" width="500" height="300" /> <img src="https://github.com/Furkath/autoDock/blob/master/demos/boat.jpg" alt="boat" width="350" height="300" />
 
